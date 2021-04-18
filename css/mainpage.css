@@ -1,0 +1,106 @@
+@font-face {
+    font-family: mainDisplay;
+    src: url(ui_display.woff);
+}
+@font-face {
+    font-family: mainDisplaySB;
+    src: url(SF-Pro-Display-Semibold.woff);
+}
+
+
+.mainpagehead {
+    font-family: mainDisplay;
+    font-size: 40px;
+    filter: blur(0px);
+    color: #6688cc;
+    display: block;
+    padding-top: 20px;
+
+
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.bodyblur {
+
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://images.hdqwalls.com/download/black-gradient-b9-1280x800.jpg);
+
+}
+
+.middiv {
+    filter: blur(0px);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+    
+}
+
+html,
+body { height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.center {
+
+background: #CCCCCC;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.middiv-btn {
+    margin-top: 0px;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #6688cc;
+    border-style: none;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: ivory;
+    font-family: mainDisplay;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+@keyframes rotateborder {
+    0% {
+        background-color: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    100% {
+        background-color: linear-gradient(to left, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+
+
+
+
+.middiv-btn:focus {
+    border-style: none;
+}
+
+.signin-lnk {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: mainDisplaySB;
+    color: rgb(88, 88, 88);
+}
+.signin-lnk:hover {
+    text-decoration: underline;
+    font-size: 15.005px;
+}
