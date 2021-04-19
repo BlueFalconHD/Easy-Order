@@ -1,10 +1,10 @@
 @font-face {
     font-family: mainDisplay;
-    src: url(ui_display.woff);
+    src: url(https://github.com/BlueFalconHD/Easy-Order/blob/main/fonts/ui_display.woff);
 }
 @font-face {
     font-family: mainDisplaySB;
-    src: url(SF-Pro-Display-Semibold.woff);
+    src: url(https://github.com/BlueFalconHD/Easy-Order/blob/main/fonts/SF-Pro-Display-Semibold.woff);
 }
 
 
